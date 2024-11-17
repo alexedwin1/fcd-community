@@ -82,7 +82,7 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "fcd_community.users",
-    # Your stuff: custom apps go here
+    "billing.apps.BillingConfig",
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
